@@ -4,11 +4,11 @@ protocol StorageContainerType {
     var myStorage: StorageType.Type? { get }
 }
 
-protocol Valutable {
+protocol Evaluable {
     var value: Int { get }
 }
 
-extension Valutable where Self: CarType & StorageContainerType {
+extension Evaluable where Self: CarType & StorageContainerType {
     var value: Int {
         let realStorage = myStorage ?? Storage.self
         return realStorage.getValue(brand: brand)

@@ -4,7 +4,7 @@ protocol CarType {
     var brand: String { get }
 }
 
-class Car: CarType, StorageContainerType, Valutable {
+class Car: CarType, StorageContainerType, Evaluable {
     var brand: String
     var myStorage: StorageType.Type?
     

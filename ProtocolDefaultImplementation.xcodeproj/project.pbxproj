@@ -13,7 +13,7 @@
 		0F783A621EBCFB0A002DB763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F783A611EBCFB0A002DB763 /* Assets.xcassets */; };
 		0F783A651EBCFB0A002DB763 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F783A631EBCFB0A002DB763 /* LaunchScreen.storyboard */; };
 		0F78581C1EBD020400F87F03 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F78581B1EBD020400F87F03 /* Car.swift */; };
-		0F78581F1EBD023900F87F03 /* Valutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F78581E1EBD023900F87F03 /* Valutable.swift */; };
+		0F78581F1EBD023900F87F03 /* Evaluable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F78581E1EBD023900F87F03 /* Evaluable.swift */; };
 		0F7858211EBD026300F87F03 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7858201EBD026300F87F03 /* Storage.swift */; };
 		0F7858231EBD032F00F87F03 /* CarSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7858221EBD032F00F87F03 /* CarSpec.swift */; };
 		10DC1A826070F24F1E587F94 /* Pods_ProtocolDefaultImplementationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B57798D120C329888B07070 /* Pods_ProtocolDefaultImplementationTests.framework */; };
@@ -42,7 +42,7 @@
 		0F783A6B1EBCFB0B002DB763 /* ProtocolDefaultImplementationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocolDefaultImplementationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F783A711EBCFB0B002DB763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F78581B1EBD020400F87F03 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
-		0F78581E1EBD023900F87F03 /* Valutable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Valutable.swift; sourceTree = "<group>"; };
+		0F78581E1EBD023900F87F03 /* Evaluable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Evaluable.swift; sourceTree = "<group>"; };
 		0F7858201EBD026300F87F03 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		0F7858221EBD032F00F87F03 /* CarSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarSpec.swift; sourceTree = "<group>"; };
 		1B57798D120C329888B07070 /* Pods_ProtocolDefaultImplementationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProtocolDefaultImplementationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,7 +144,7 @@
 		0F78581D1EBD022C00F87F03 /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
-				0F78581E1EBD023900F87F03 /* Valutable.swift */,
+				0F78581E1EBD023900F87F03 /* Evaluable.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -374,7 +374,7 @@
 			files = (
 				0F783A5D1EBCFB0A002DB763 /* ViewController.swift in Sources */,
 				0F783A5B1EBCFB0A002DB763 /* AppDelegate.swift in Sources */,
-				0F78581F1EBD023900F87F03 /* Valutable.swift in Sources */,
+				0F78581F1EBD023900F87F03 /* Evaluable.swift in Sources */,
 				0F78581C1EBD020400F87F03 /* Car.swift in Sources */,
 				0F7858211EBD026300F87F03 /* Storage.swift in Sources */,
 			);
