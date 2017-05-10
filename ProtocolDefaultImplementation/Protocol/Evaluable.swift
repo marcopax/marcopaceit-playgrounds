@@ -1,16 +1,17 @@
 //  Copyright © 2017 Marco Pace. All rights reserved.
 
-protocol StorageContainerType {
-    var myStorage: StorageType.Type? { get }
-}
-
 protocol Evaluable {
+    var storage: StorageType.Type? { get }
     var value: Int { get }
 }
 
-extension Evaluable where Self: CarType & StorageContainerType {
+extension Evaluable where Self: Car {
+    var storage: StorageType.Type? {
+        return nil
+    }
+
     var value: Int {
-        let realStorage = myStorage ?? Storage.self
-        return realStorage.getValue(brand: brand)
+        let myStorage = storage ?? Storage.self
+        return myStorage.getValue(brand: brand)
     }
 }

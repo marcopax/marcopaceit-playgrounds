@@ -1,15 +1,11 @@
 //  Copyright © 2017 Marco Pace. All rights reserved.
 
-protocol CarType {
-    var brand: String { get }
-}
-
-class Car: CarType, StorageContainerType, Evaluable {
+class Car: Evaluable {
     var brand: String
-    var myStorage: StorageType.Type?
+    var storage: StorageType.Type?
     
     init(brand: String, storage: StorageType.Type?) {
         self.brand = brand
-        self.myStorage = storage
+        self.storage = storage
     }
 }
