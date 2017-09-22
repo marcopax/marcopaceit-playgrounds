@@ -1,8 +1,5 @@
 # Readme
-Project for the blog post: "[Swift: testing protocol extension default implementation](http://www.marcopace.it/swift-testing-protocol-extension-default-implementation/)".
+Playgrounds and Workspaces for the articles I write on my [personal blog](http://www.marcopace.it/)".
 
-## Details:
-- [Xcode 8.3.2](https://itunes.apple.com/app/xcode/id497799835)
-- [Swift 3.1.1](https://swift.org)
-- [Quick 1.1.0](https://github.com/Quick/Quick)
-- [Nimble 7.0.0](https://github.com/Quick/Nimble/)
+## List:
+- [Swift: testing protocol extension default implementation](http://www.marcopace.it/swift-testing-protocol-extension-default-implementation/)"
